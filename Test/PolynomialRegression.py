@@ -1,6 +1,4 @@
-# import numpy as np
 from omniregress import PolynomialRegression
-
 
 def test_polynomial_regression():
     print("=== Testing Polynomial Regression ===")
