@@ -4,6 +4,7 @@ from omniregress import (__version__,LinearRegression,
                          RidgeRegression)
 import numpy as np
 
+print("Omniregress version:", __version__)
 def test_linear_regression():
     X = [1, 2, 3, 4, 5]
     y = [3, 5, 7, 9, 11]
